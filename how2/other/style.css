@@ -1,0 +1,10 @@
+html{
+    background:#e5e5e5 url(/diary/page-bg.webp) repeat;
+    position:relative;
+    min-height:100%
+}
+body{
+    font:normal normal 20px/22px "Arial",sans-serif;
+    color:#606060;
+    min-height:100%
+}
