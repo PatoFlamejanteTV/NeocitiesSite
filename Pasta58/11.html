@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel dolor in nibh efficitur feugiat sit amet at ex.</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <style>
+    body{
+    background-image: url('xadrez.gif');
+    background-size: resize;
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+    body{
+      color: red
+    }
+</style>
+  </head>
+  <body>
+  <center><a href="12.html"><img src="a" id="minhaImagem" alt="Eyes, red, red, red..." hidden=""></a><br><br></center>
+  <center><h1 onclick="jumpscare()">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel dolor in nibh efficitur feugiat sit amet at ex.</h1><p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel dolor in nibh efficitur feugiat sit amet at ex. Aliquam dapibus convallis lacus, eget tempus dui fermentum sit amet. Donec vitae orci eget lorem luctus accumsan ac in lectus. Morbi viverra tortor eget arcu varius, vitae finibus dolor mollis. Donec lacinia sed leo et dapibus. Donec ligula est, semper quis vehicula vitae, commodo at libero. Nulla sed varius lorem, sit amet viverra nibh. </p></center>
+  <center><a href="eyes"><img src="https://i.pinimg.com/originals/d6/96/54/d696540a0156fbb1ef15904f23662a09.gif" alt="https://i.pinimg.com/originals/d6/96/54/d696540a0156fbb1ef15904f23662a09.gif" class="shrinkToFit transparent" width="90" height="61"><img src="https://i.pinimg.com/originals/d6/96/54/d696540a0156fbb1ef15904f23662a09.gif" alt="https://i.pinimg.com/originals/d6/96/54/d696540a0156fbb1ef15904f23662a09.gif" class="shrinkToFit transparent" width="90" height="61"><img src="https://i.pinimg.com/originals/d6/96/54/d696540a0156fbb1ef15904f23662a09.gif" alt="https://i.pinimg.com/originals/d6/96/54/d696540a0156fbb1ef15904f23662a09.gif" class="shrinkToFit transparent" width="90" height="61"><img src="https://i.pinimg.com/originals/d6/96/54/d696540a0156fbb1ef15904f23662a09.gif" alt="https://i.pinimg.com/originals/d6/96/54/d696540a0156fbb1ef15904f23662a09.gif" class="shrinkToFit transparent" width="90" height="61"><img src="https://i.pinimg.com/originals/d6/96/54/d696540a0156fbb1ef15904f23662a09.gif" alt="https://i.pinimg.com/originals/d6/96/54/d696540a0156fbb1ef15904f23662a09.gif" class="shrinkToFit transparent" width="90" height="61"><img src="https://i.pinimg.com/originals/d6/96/54/d696540a0156fbb1ef15904f23662a09.gif" alt="https://i.pinimg.com/originals/d6/96/54/d696540a0156fbb1ef15904f23662a09.gif" class="shrinkToFit transparent" width="90" height="61"></a></center>
+  
+  <audio autoplay>   <source src="https://cdn.discordapp.com/attachments/1178755140916879402/1178755176182587505/V1.ogg?ex=65774c4e&is=6564d74e&hm=990040d32832f0035744f1e1f45972f60b2cbc7506a72f979ab5ccf5d0e6997a&" type="audio/ogg"> </audio>
+<script>
+    minhaImagem.hidden = true;
+    function jumpscare() {
+        // Obter a tag img pelo ID
+        var minhaImagem = document.getElementById('minhaImagem');
+
+        // Trocar o atributo "src"
+        minhaImagem.src = 'jumpscare.jpg';
+        minhaImagem.hidden = false;
+
+        // Reproduzir o som
+        var audio = new Audio('https://archive.org/download/k-fee-screamer-sfx-made-with-Voicemod-technology/k-fee-screamer-sfx-made-with-Voicemod-technology.mp3');
+        audio.play();
+        window.open("12");
+    }
+</script>
+  </body>
+</html>

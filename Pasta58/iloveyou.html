@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I LOVE YOU</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <style>
+    body {background-color: black;}
+    </style>
+  </head>
+  <body>
+    <center><br><br><br><img src="brokenimglol" id="minhaImagem" alt="J U M P  S C A R E"></center>
+   <audio autoplay>
+  <source src="https://cdn.discordapp.com/attachments/1178755140916879402/1178755176182587505/V1.ogg?ex=65774c4e&is=6564d74e&hm=990040d32832f0035744f1e1f45972f60b2cbc7506a72f979ab5ccf5d0e6997a&" type="audio/ogg">
+</audio>
+
+    
+    
+    
+    <script>
+
+    function jumpscare() {
+        // Obter a tag img pelo ID
+        var minhaImagem = document.getElementById('minhaImagem');
+
+        // Trocar o atributo "src"
+        minhaImagem.src = 'jumpscare.jpg';
+
+        // Reproduzir o som
+        var audio = new Audio('https://archive.org/download/k-fee-screamer-sfx-made-with-Voicemod-technology/k-fee-screamer-sfx-made-with-Voicemod-technology.mp3');
+        audio.play();
+    }
+   window.onload = jumpscare()
+</script>
+  </body>
+</html>
